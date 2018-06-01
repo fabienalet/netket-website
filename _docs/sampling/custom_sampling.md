@@ -27,9 +27,6 @@ The transition probability associated to a custom sampler can be decomposed into
 |===
 
 
-For example, in the case of spin $$ 1/2 $$ particles, $$ m=2 $$ and the possible local values are $$ s_i = -1,+1 $$.
-In this case then `MetropolisLocal` is equivalent to flipping a random spin.
-
 In the case of bosons, with occupation numbers $$ s_i = 0, 1, \dots n_{\mathrm{max}} $$, `MetropolisLocal` would pick a random local occupation number uniformly between $$ 0 $$ and $$ n_{\mathrm{max}} $$.  
 
 
