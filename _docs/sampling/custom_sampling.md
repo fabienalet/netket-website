@@ -7,6 +7,7 @@ NetKet provides the freedom to define user’s defined samplers, just specifying
 $$
 \mathcal{T}= \sum_i T_i,
 $$
+
 where the move operators $$ T_i $$ act on an (arbitrary) subset of sites.
 
 <h2 class="bg-primary">Move Operators</h2>
